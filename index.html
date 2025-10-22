@@ -43,10 +43,10 @@
       <p>"To help keep the face smoother and feel it with glam "</p>
     </center>
   
-  <img src="Face_mask/face1.jpg" alt="facial mask">
-  <img src="Face_mask/face2.jpg" alt="facial mask">
-  <img src="Face_mask/face3.jpg" alt="facial mask">
-  <img src="Face_mask/face4.jpg" alt="facial mask">
+  <img id="face1" src="Face_mask/face1.jpg" alt="facial mask">
+  <img id="face2"  src="Face_mask/face2.jpg" alt="facial mask">
+  <img  id="face3" src="Face_mask/face3.jpg" alt="facial mask">
+  <img  id="face4" src="Face_mask/face4.jpg" alt="facial mask">
   </div>
   
   <div class="pimple-patch">
@@ -57,9 +57,9 @@
     <p>"Why pop your pimple and feeling the pains afterword instead try out a pimple patch with <em>pain-free"</em></p>
     </center>
     
-    <img src="Pimple_patch/patch1.jpg" alt="pimple-patch">
-    <img src="Pimple_patch/patch2.jpg" alt="pimple-patch">
-    <img src="Pimple_patch/patch3.jpg" alt="pimple-patch">
+    <img id="patch1" src="Pimple_patch/patch1.jpg" alt="pimple-patch">
+    <img id="patch2" src="Pimple_patch/patch2.jpg" alt="pimple-patch">
+    <img id="patch3" src="Pimple_patch/patch3.jpg" alt="pimple-patch">
   </div>
   
   <div class="lips-mask">
@@ -70,9 +70,9 @@
     <p>"Keeps your lips <em>moisturized </em> always"</p>
     </center>
     
-    <img src="Lip_mask/lip1.jpg" alt="lips-mask">
-    <img src="Lip_mask/lip2.jpg" alt="lips-mask">
-    <img src="Lip_mask/lip3 jpg" alt="">
+    <img id="lip1" src="Lip_mask/lip1.jpg" alt="lips-mask">
+    <img  id="lip2" src="Lip_mask/lip2.jpg" alt="lips-mask">
+    <img  id="lip3" src="Lip_mask/lip3.jpg" alt="">
   </div>
   </section>
   
@@ -80,23 +80,30 @@
     <h1>BOOK YOUR ORDER WITH US</h1>
     
    <form action="" method="post">
-     <input type="checkbox" name="facial-mask">
-     <label for="facial-mask">Facial Mask</label>
-     <input type="number" name="num" placeholder="Quantity" id="mask">
-     <br>
-     
-       <input type="checkbox" name="pimple-patch">
-  <label for="pimple-patch">Pimple Patch</label>
-  <input type="number" name="num" placeholder="Quantity" id="patch">
-  <br>
   
-    <input type="checkbox" name="lip-mask">
-  <label for="lip-mask">Lips Mask</label> 
-  <input type="number" name="num" placeholder="Quantity" id="lips">
-  <br>
   
+<center>
+         <input type="checkbox" name="facial-mask" id="facial-mask" id="facial-mask-check">
+       <label id="facial-mask-label"  for="facial-mask">Facial Mask</label>
+       <input type="number" name="" id="facial-mask-quantity" placeholder="Quantity">
+       
+       <br>
+       
+       <input type="checkbox" name="pimple-patch" id="pimple-patch-check">
+       <label id="pimple-patch-label" for="pimple-patch">Pimple Patch</label>
+       <input type="number" name="" id="pimple-patch-quantity" placeholder="Quantity">
+       
+       <br>
+       
+       <input type="checkbox" name="lips-mask" id="lips-mask-check">
+       <label id="lips-mask-label"  for="lips-mask">Lips Mask</label>
+       <input type="number" name="" id="lips-mask-quantity" placeholder="Quantity">
+       <br>
+       
  <input type="submit" value="ORDER" id="order">
-  <input type="reset" value="RESET">
+ 
+  <input type="reset" value="RESET" id="reset">
+       </center>
    </form>
   </section>
 

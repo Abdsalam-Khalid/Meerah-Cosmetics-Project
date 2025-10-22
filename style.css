@@ -70,13 +70,6 @@
  line-height: 1.5em;
 }
 
-img {
- width: 100vw;
- object-fit: fill;
- margin-right: 20px;
- margin-bottom: 20px;
-}
-
 hr {
  border: solid 2px;
  margin-bottom: 2em;
@@ -107,13 +100,18 @@ h1 {
  margin-left: 2.9em;
 }
 
-input  {
- border: solid 1px;
- border-radius: 0.3em;
-}
 
 #order {
- margin-right: 1em;
+ margin-top: 2em;
+ margin-right: 2em;
+ font-size: 1.2em;
+ padding: 0.3em 0.7em 0.3em 0.7em;
+}
+
+#reset {
+  font-size: 1.2em;
+ padding: 0.3em;
+ width: 5em;
 }
 
 #contact {
@@ -124,4 +122,248 @@ input  {
 
 #footer {
   font-size: 1.5em;
+}
+
+img {
+ width: 100vw;
+ object-fit: fill;
+ margin-right: px;
+ margin-bottom: 20px;
+}
+
+@keyframes face1 {
+ 0% {
+ transform: translateX(40px);
+ transition: translateX 1s;
+ }
+ 
+ 50% {
+  transform: translateX(-40px);
+ }
+ 100% {
+ transform: translateX(40px);
+ transition: translateX 2s;
+ }
+}
+#face1 {
+  animation-name: face1;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes face2 {
+ 0% {
+ transform: translateX(-40px);
+ transition: translateX 1s;
+ }
+ 
+ 50% {
+  transform: translateX(40px);
+ }
+ 100% {
+ transform: translateX(-40px);
+ transition: translateX 2s;
+ }
+}
+#face2 {
+  animation-name: face2;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+
+@keyframes face3 {
+ 0% {
+ transform: translateX(40px);
+ transition: translateX 1s;
+ }
+ 
+ 50% {
+  transform: translateX(-40px);
+ }
+ 100% {
+ transform: translateX(40px);
+ transition: translateX 2s;
+ }
+}
+#face3 {
+  animation-name: face3;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes face4 {
+ 0% {
+ transform: translateX(-40px);
+ transition: translateX 1s;
+ }
+ 
+ 50% {
+  transform: translateX(40px);
+ }
+ 100% {
+ transform: translateX(-40px);
+ transition: translateX 2s;
+ }
+}
+#face4 {
+  animation-name: face4;
+ animation-iteration-count: infinite;
+ animation-duration: 3s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes patch1 {
+ 0% {
+  transform: rotateY(360deg);
+ }
+}
+
+#patch1 {
+   animation-name: patch1;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out
+}
+
+@keyframes patch2 {
+ 0% {
+  transform: rotateX(360deg);
+ }
+}
+
+#patch2 {
+ animation-name: patch2;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-delay: 3s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+
+@keyframes patch3 {
+ 0% {
+  transform: rotateX(360deg);
+ }
+}
+
+#patch3 {
+ animation-name: patch3;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-delay: 4s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes lip1 {
+ 0% {
+  transform: translateY(50px);
+ }
+ 50% {
+  transform: translateY(-50px);
+ }
+ 100% {
+  transform: translateY(50px);
+ }
+}
+
+#lip1 {
+ animation-name: lip1;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-delay: 3s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes lip2 {
+ 0% {
+  transform: translateY(-50px);
+ }
+ 50% {
+  transform: translateY(50px);
+ }
+ 100% {
+  transform: translateY(-50px);
+ }
+}
+
+#lip2 {
+ animation-name: lip2;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-delay: 3s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+@keyframes lip3 {
+ 0% {
+  transform: translateY(50px);
+ }
+ 50% {
+  transform: translateY(-50px);
+ }
+ 100% {
+  transform: translateY(50px);
+ }
+}
+
+#lip3 {
+ animation-name: lip1;
+ animation-iteration-count: infinite;
+ animation-duration: 4s;
+ animation-delay: 3s;
+ animation-direction: normal;
+ animation-timing-function: ease-in-out
+}
+
+input {
+ margin-bottom: 2.5em;
+ border-radius: 0.5em;
+ border: solid 1px;
+}
+
+input:focus {
+ outline:  grey;
+}
+
+#facial-mask-quantity {
+ margin-left: 3em;
+ padding: 5px;
+}
+
+#pimple-patch-quantity {
+ margin-left: 1.9em;
+ padding: 5px;
+}
+
+#lips-mask-quantity {
+
+ padding: 5px;
+}
+
+#facial-mask-label {
+ font-size: 1.5em;
+}
+
+#pimple-patch-label {
+ font-size: 1.5em;
+}
+
+#lips-mask-label {
+ font-size: 1.5em;
+ margin-left: 0.8em;
+ margin-right: 1.6em;
 }
