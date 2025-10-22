@@ -148,7 +148,7 @@ img {
 #face1 {
   animation-name: face1;
  animation-iteration-count: infinite;
- animation-duration: 4s;
+ animation-duration: 2s;
  animation-direction: normal;
  animation-timing-function: ease-in-out
 }
@@ -170,7 +170,7 @@ img {
 #face2 {
   animation-name: face2;
  animation-iteration-count: infinite;
- animation-duration: 4s;
+ animation-duration: 2s;
  animation-direction: normal;
  animation-timing-function: ease-in-out
 }
@@ -193,7 +193,7 @@ img {
 #face3 {
   animation-name: face3;
  animation-iteration-count: infinite;
- animation-duration: 4s;
+ animation-duration: 2s;
  animation-direction: normal;
  animation-timing-function: ease-in-out
 }
@@ -215,7 +215,7 @@ img {
 #face4 {
   animation-name: face4;
  animation-iteration-count: infinite;
- animation-duration: 3s;
+ animation-duration: 2s;
  animation-direction: normal;
  animation-timing-function: ease-in-out
 }
